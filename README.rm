@@ -23,9 +23,11 @@ ESTRUCTURA DEL HEAD
         · REL: Especifica el tipo de archivo.
         · HREF: Donde se encuentra el archivo.
 
+
 TIPOS DE ETIQUETAS:
     - DE CONTENIDO: Estas son las que llevan cualquier elemento que se puede renderizar.
     - CONTENEDORAS: Estas permiten dar estructura a la página web y pueden contener otras etiquetas.
+
 
 ETIQUETAS CONTENEDORAS:
     - HEADER: Etiqueta de encabezado.
@@ -33,6 +35,7 @@ ETIQUETAS CONTENEDORAS:
     - FOOTER: Etiqueta de pie de página.
     - SECTION: Genera como su nombre indica secciones dentro de otra etiqueta.
     - DIV: Es una etiqueta contenedora comodín, sirve para hacer estructura sin especificar de que tipo.
+
 
 ETIQUETAS DE CONTENIDO:
     - NAV: Inserta una barra de navegación.
