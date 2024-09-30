@@ -1,0 +1,6 @@
+HEAD contiene todas las dependencias, librerias o css que necesita el navegador para poder cargar la página web pero
+que el usuario no necesita ver.
+
+Body contiene todas las partes interactivas que queremos que el usuario vea y pueda interactuar con el
+
+CHARSET sirve para seleccionar la normativa de codificación de carácteres. 
