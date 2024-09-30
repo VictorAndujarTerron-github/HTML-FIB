@@ -4,3 +4,17 @@ que el usuario no necesita ver.
 Body contiene todas las partes interactivas que queremos que el usuario vea y pueda interactuar con el
 
 CHARSET sirve para seleccionar la normativa de codificación de carácteres. 
+
+DESCRIPTION ayuda a que el usuario pueda leer de que trata nuestra web sin necesidad de
+entrar en ella.
+
+ROBOTS hace que si buscas algo, los robots que posicionan las páginas webs dentro de cada
+explorador puedan situar la nuestra.
+
+TITLE permite ponerle un título a tu página web que es el que queda en la pestaña del explorador.
+
+VIEWPORT permite seleccionar cuales queremos que sean las dimensiones de la página web respecto
+de la pantalla del ordenador del usuario.
+
+LINK permite enlazar archivos como en este caso el css. El REL especifica el tipo de archivo y el
+HREF donde se encuentra el archivo.
