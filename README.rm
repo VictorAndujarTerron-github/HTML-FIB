@@ -66,3 +66,14 @@ OPTIMIZACIÓN DE IMÁGENES:
 El tamaño optimo de una imagen deberia de ser aproximado a 70KB. Para poder asimilar este objetivo de tamaño hay dos webs:
     - TINY PNG: Mejora el tamaño de las imágenes.
     - VEREFIX: Retira metadatos de las imágenes.
+
+
+ETIQUETA IMG:
+La etiqueta IMG tiene el siguiente formato:
+    <img src="" alt="">
+SRC se utiliza para especificar donde se encuentra la imagen que queremos cargar. Podemos poner un path hasta la imagen si 
+la tenemos descargada o introducir una dirección web de esta imagen.
+ALT sirve para poner una pequeña descripción a la imagen que aparecera en caso de que nuestra página web no la pueda cargar.
+
+ETIQUETA FIGURE:
+Esta etiqueta permite crear un contenedor para una imagen.
