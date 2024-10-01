@@ -105,3 +105,5 @@ ETIQUETA INPUT:
 El input tiene un atributo TYPE que permite elegir que tipo de información recoge ese input. También tiene el atributo ID que tiene que tomar por
 valor el mismo que tenga la etiqueta LABEL que contiene la etiqueta INPUT.
 El atributo PLACEHOLDER permite poner el tipo de atributos que se necesita.
+
+
