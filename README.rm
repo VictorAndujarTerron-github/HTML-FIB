@@ -103,7 +103,13 @@ La etiqueta tiene un atributo FOR que permite especificar para se utliza la sigu
 
 ETIQUETA INPUT:
 El input tiene un atributo TYPE que permite elegir que tipo de información recoge ese input. También tiene el atributo ID que tiene que tomar por
-valor el mismo que tenga la etiqueta LABEL que contiene la etiqueta INPUT.
+valor el mismo que tenga la etiqueta LABEL que contiene la etiqueta INPUT. 
+
 El atributo PLACEHOLDER permite poner el tipo de atributos que se necesita.
+
+El atributo AUTOCOMPLETE permite ayudar al usuario a que algunos campos se autocompleten con la información que se ha introducido anteriormente en
+otros formularios.
+
+El atributo REQUIERED hace que el FORM no se pueda enviar si en este campo no hemos introduciodo ningún valor
 
 
