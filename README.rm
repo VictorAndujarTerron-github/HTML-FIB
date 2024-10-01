@@ -90,3 +90,18 @@ La etiqueta video tiene varios atributos, entre ellos:
 
 Los formatos válidos son varios. Con la etiqueta SOURCE podemos poner cualquier formato sin preocuparnos si el navegador entiende el
 formato mp4, m4v, ... El navegador solo cargara el video del primer formato que entienda.
+
+
+ETIQUETA FORM:
+Esta etiqueta se utiliza para crear formularios. El atributo ACTION se utiliza junto a JS para especificar la url donde enviariamos la
+información del formulario a la BD.
+
+
+ETIQUETA LABEL:
+La etiqueta tiene un atributo FOR que permite especificar para se utliza la siguiente etiqueta.
+
+
+ETIQUETA INPUT:
+El input tiene un atributo TYPE que permite elegir que tipo de información recoge ese input. También tiene el atributo ID que tiene que tomar por
+valor el mismo que tenga la etiqueta LABEL que contiene la etiqueta INPUT.
+El atributo PLACEHOLDER permite poner el tipo de atributos que se necesita.
