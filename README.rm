@@ -46,3 +46,23 @@ ETIQUETAS DE CONTENIDO:
     - P: Permite crear un párrafo.
     - H*: Permite crear encabezados.
     - A: Permite generar hipervinculos
+
+
+ESTRUCTURA DE UNA ETIQUETA:
+Casi todas las etiquetas llevan apertura (<..>) y cierre (</...>).Se puede saber cuales si y cuales no tan
+facilmente como distinguir entre las que llevan contenido dentro y las que no lo hacen. Luego todas las
+etiquetas pueden tener atributos, que deben de estar dentro de la parte de apertura de la etiqueta.
+
+
+TIPOS DE IMAGENES:
+    - LOSSY: Imágenes con perdidas. Suelen perder algo de calidad pero no hace que la página web tarde mucho en abrirse.
+    - LOSSLESS: Imágenes sin perdidas. Suelen ser más pesadas para no perder nada de calidad.
+Una imagen es de uno o el otro tipo dependiendo del formato en el que esta este guardada. El formato de las imágenes
+importa porque depende lo pesadas que sean estas, la página web tardará mucho en abrirse y esto generará una mala
+experiencia en el usuario.
+
+
+OPTIMIZACIÓN DE IMÁGENES:
+El tamaño optimo de una imagen deberia de ser aproximado a 70KB. Para poder asimilar este objetivo de tamaño hay dos webs:
+    - TINY PNG: Mejora el tamaño de las imágenes.
+    - VEREFIX: Retira metadatos de las imágenes.
