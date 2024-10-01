@@ -75,5 +75,18 @@ SRC se utiliza para especificar donde se encuentra la imagen que queremos cargar
 la tenemos descargada o introducir una dirección web de esta imagen.
 ALT sirve para poner una pequeña descripción a la imagen que aparecera en caso de que nuestra página web no la pueda cargar.
 
+
 ETIQUETA FIGURE:
-Esta etiqueta permite crear un contenedor para una imagen.
+Esta etiqueta permite crear un contenedor para una imagen. Dentro de esta etiqueta podemos utilizar la FIGCAPTION que nos permite
+crear una descripción que aparecera siempre debajo de la imagen.
+
+
+ETIQUETA VIDEO:
+La etiqueta video tiene varios atributos, entre ellos:
+    - SRC: Se utiliza para especificar donde se encuentra el vídeo. Si ponemos "#t=<tiempo_inicio>,<tiempo_final>" seguido del
+        archivo, especificamos de que minuto a que minuto queremos que el usuario pueda ver el vídeo. Los tiempos estan en segundos.
+    - CONTROLS: Hace aparecer todos los botones necesarios (play/stop, tiempo del vídeo, barra de progreso del vídeo, ...).
+    - PRELOAD: Si lo ponemos en "auto" permite que el vídeo empiece a renderizar en cuanto se accede a la web.
+
+Los formatos válidos son varios. Con la etiqueta SOURCE podemos poner cualquier formato sin preocuparnos si el navegador entiende el
+formato mp4, m4v, ... El navegador solo cargara el video del primer formato que entienda.
