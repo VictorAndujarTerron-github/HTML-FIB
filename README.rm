@@ -110,6 +110,15 @@ El atributo PLACEHOLDER permite poner el tipo de atributos que se necesita.
 El atributo AUTOCOMPLETE permite ayudar al usuario a que algunos campos se autocompleten con la información que se ha introducido anteriormente en
 otros formularios.
 
-El atributo REQUIERED hace que el FORM no se pueda enviar si en este campo no hemos introduciodo ningún valor
+El atributo REQUIERED hace que el FORM no se pueda enviar si en este campo no hemos introduciodo ningún valor.
 
 
+ETIQUETA SELECT:
+Tiene dos atributos:
+    - NAME: Es el nombre del elemento que queremos seleccionar.
+    - ID:
+
+Dentro del SELECT se usa la etiqueta OPTION. Cada option es una opción que tendra el select. El atributo VALUE del option suele tener el mismo valor
+que tiene lo que lee el usuario escrito en texto.
+
+Otra forma de hacer un SELECT es hacer un input de tipo LIST y usar una etiqueta de DATALIST.
