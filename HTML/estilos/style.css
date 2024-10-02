@@ -1,0 +1,36 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    color: blue;
+}
+
+h3 {
+    font-size: 25px;
+    color: brown;
+}
+
+#lista {
+    font-size: 20px;
+}
+
+#sublista {
+    font-size: 15px;
+}
+
+.fruta {
+    color: rgb(131, 131, 6);
+}
+
+.carne {
+    color: red;
+}
+
+.verdura {
+    color: green;
+}
+
+.imagen {
+    width: 150px;
+    height: 150px;
+}
