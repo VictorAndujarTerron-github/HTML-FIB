@@ -1,0 +1,42 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    background-size: 0px;
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+/* Este estilo se aplica a todas las etiquetas "a" dentro de cualquier
+etiqueta de clase "main-nav__item" */
+.main-nav__item a {
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px; -> sirve para redondear las puntas de una caja */
+    text-decoration: none;
+    /* background-color: green; */
+}
+
+/* El hover se activa cuando el mouse se encuentra encima del elemento */
+.main-nav__item a:hover {
+    color: blue;
+}
+
+/* El active se activa cuando hacemos click sobre el elemento */
+.main-nav__item a:active {
+    color: red;
+}
+
+.main-nav__item a::before {
+    content: "- ";
+}
+
+/* Agrega un elemento después del contenido de la clase */
+.main-nav__item a::after {
+    content: " -";
+}
